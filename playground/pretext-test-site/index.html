@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pretext Newspaper</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Serif:wght@400;700&family=IBM+Plex+Sans:wght@500;600&display=swap" rel="stylesheet" />
+    <script type="module" src="/src/main.ts"></script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <svg id="dragonCursor" viewBox="0 0 80 60" xmlns="http://www.w3.org/2000/svg" style="display: none; position: fixed; pointer-events: none; z-index: 10000; width: 32px; height: 24px;">
+      <!-- Dragon body -->
+      <ellipse cx="40" cy="30" rx="28" ry="22" fill="#1a1a1a" stroke="#000" stroke-width="1.5" />
+      <!-- Head -->
+      <circle cx="60" cy="20" r="16" fill="#2a2a2a" stroke="#000" stroke-width="1.5" />
+      <!-- Eyes -->
+      <circle cx="65" cy="17" r="3.5" fill="#fff" />
+      <circle cx="65" cy="17" r="2" fill="#000" />
+      <circle cx="72" cy="17" r="3.5" fill="#fff" />
+      <circle cx="72" cy="17" r="2" fill="#000" />
+      <!-- Snout -->
+      <path d="M 75 20 Q 82 18 84 22 Q 82 26 75 24 Z" fill="#333" stroke="#000" stroke-width="1" />
+      <!-- Nostril -->
+      <circle cx="82" cy="20" r="1.5" fill="#000" />
+      <!-- Horns -->
+      <path d="M 58 8 L 55 2 M 62 6 L 60 0" stroke="#000" stroke-width="2" stroke-linecap="round" />
+      <!-- Spikes along back -->
+      <path d="M 32 10 L 30 4 M 40 8 L 38 2 M 48 10 L 46 4" stroke="#000" stroke-width="2" stroke-linecap="round" />
+      <!-- Wing suggestion -->
+      <path d="M 25 28 Q 10 20 8 38 Q 10 42 25 35 Z" fill="#2a2a2a" opacity="0.7" stroke="#000" stroke-width="1" />
+      <!-- Tail -->
+      <path d="M 12 35 Q 0 35 -5 40 Q 0 48 12 42 Z" fill="#1a1a1a" stroke="#000" stroke-width="1.5" />
+    </svg>
+  </body>
+</html>
